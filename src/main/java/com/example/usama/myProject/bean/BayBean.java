@@ -9,6 +9,16 @@ public class BayBean implements Serializable{
 	private String bayCod;
 	
 	private Long progressive;
+	
+	private int switchNumber;
+	
+	public int getSwitchNumber() {
+		return switchNumber;
+	}
+
+	public void setSwitchNumber(int switchNumber) {
+		this.switchNumber = switchNumber;
+	}
 
 	public BayBean(String bayCod, Long progressive) {
 		super();
