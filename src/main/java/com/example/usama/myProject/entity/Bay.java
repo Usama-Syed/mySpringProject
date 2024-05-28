@@ -9,7 +9,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "T_BAY", schema = "ENET")
+@Table(name = "T_BAY")
 public class Bay {
 
 	/** The bay id. */
